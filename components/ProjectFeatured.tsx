@@ -7,11 +7,12 @@ interface ProjectFeaturedProps {
   number: string;
   kicker: string;
   title: React.ReactNode;
-  body: string;
+  body: React.ReactNode;
   tags: { label: string; accent?: boolean }[];
   link?: { href: string; text: string };
   imageSrc?: string;
   imageAlt?: string;
+  browserUrl?: string;
   phoneMockup?: {
     large: { src: string; alt: string };
     small: { src: string; alt: string };
@@ -29,6 +30,7 @@ export default function ProjectFeatured({
   link,
   imageSrc,
   imageAlt,
+  browserUrl,
   phoneMockup,
   stat,
 }: ProjectFeaturedProps) {
@@ -92,11 +94,25 @@ export default function ProjectFeatured({
           </div>
         ) : imageSrc ? (
           <div className="img-block">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={imageSrc}
-              alt={imageAlt || "Project screenshot"}
-            />
+            {browserUrl ? (
+              <div className="browser-wrap">
+                <div className="browser-chrome">
+                  <div className="browser-dots">
+                    <span /><span /><span />
+                  </div>
+                  <div className="browser-bar">
+                    <span>{browserUrl}</span>
+                  </div>
+                </div>
+                <div className="browser-screen">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={imageSrc} alt={imageAlt || "Project screenshot"} />
+                </div>
+              </div>
+            ) : (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img src={imageSrc} alt={imageAlt || "Project screenshot"} />
+            )}
           </div>
         ) : (
           <div className="img-block">

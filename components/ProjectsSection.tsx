@@ -52,6 +52,7 @@ export default function ProjectsSection() {
         ]}
         imageSrc="/images/ieso/ieso_peak_data_chart.png"
         imageAlt="IESO energy threshold monitoring dashboard"
+        browserUrl="ieso-monitor.app/dashboard"
       />
 
       <ProjectFeatured
@@ -72,6 +73,7 @@ export default function ProjectsSection() {
         link={{ href: "#", text: "View Project" }}
         imageSrc="/images/fleet/HRReportsPage.png"
         imageAlt="Fleet commute benefits platform"
+        browserUrl="fleet.app/hr/reports"
       />
 
       <ProjectFeatured
