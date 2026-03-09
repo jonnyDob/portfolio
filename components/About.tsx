@@ -25,6 +25,10 @@ export default function About() {
       <p>
         I care about building things well and solving problems that matter.
       </p>
+      <div className="education">
+        <div className="edu-school">Queen&apos;s University</div>
+        <div className="edu-degree">Computer Engineering</div>
+      </div>
     </motion.div>
   );
 }
