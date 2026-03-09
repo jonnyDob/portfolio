@@ -258,6 +258,10 @@ nav {
   margin-bottom: 1.5rem;
 }
 
+.feat-body p + p {
+  margin-top: 1rem;
+}
+
 .feat-tags {
   display: flex;
   gap: 0.5rem;

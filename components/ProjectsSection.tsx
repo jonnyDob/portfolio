@@ -38,10 +38,10 @@ export default function ProjectsSection() {
         kicker="AWS · Enterprise · SaaS"
         title={
           <>
-            Energy Intelligence: <em>Monitoring Platform </em>
+            IESO Platform: <em>Energy Intelligence</em>
           </>
         }
-        body="A platform that monitors real-time energy demand levels for industrial operators across Ontario. Tracks IESO grid data against configurable thresholds, triggers automated email alerts when demand spikes, and surfaces trends through a monitoring dashboard. Multi-tenant serverless architecture on AWS with API Gateway, Lambda, DynamoDB, Cognito, and infrastructure defined entirely in CDK."
+        body="A platform for industrial facilities that monitors Ontario’s IESO grid energy demand. Automated alerts trigger during peak demand, while dashboards show energy trends. Built at the request of an engineering firm. "
         tags={[
           { label: "AWS", accent: true },
           { label: "Serverless", accent: true },
