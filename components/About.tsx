@@ -18,15 +18,12 @@ export default function About() {
       <div className="col-head">About me.</div>
       <p>
         I&apos;m a full-stack engineer and founder based in Toronto. I built
-        Common from zero — designed it, engineered it, launched it on iOS and
-        Android, and scaled it to 37,000+ supported monthly users. I&apos;ve
-        worked across mobile, AWS cloud infrastructure, machine learning, and
-        systems engineering at AMD.
+        Common — designing, engineering, and launching it on iOS and Android.
+        I&apos;ve worked across web development, AWS cloud infrastructure,
+        artifical intelligence, and systems engineering at AMD.
       </p>
       <p>
-        I care about building things well — engineering that holds up when real
-        users hit it, design that gets out of the way, and products that
-        actually ship.
+        I care about building things well and solving problems that matter.
       </p>
     </motion.div>
   );
