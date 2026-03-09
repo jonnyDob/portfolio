@@ -10,6 +10,7 @@ interface ProjectFeaturedProps {
   body: React.ReactNode;
   tags: { label: string; accent?: boolean }[];
   link?: { href: string; text: string };
+  storeLinks?: { href: string; text: string }[];
   imageSrc?: string;
   imageAlt?: string;
   browserUrl?: string;
@@ -28,6 +29,7 @@ export default function ProjectFeatured({
   body,
   tags,
   link,
+  storeLinks,
   imageSrc,
   imageAlt,
   browserUrl,
@@ -60,6 +62,15 @@ export default function ProjectFeatured({
             </span>
           ))}
         </div>
+        {storeLinks && (
+          <div className="store-links">
+            {storeLinks.map((sl) => (
+              <a key={sl.href} href={sl.href} className="store-link" target="_blank" rel="noopener noreferrer">
+                {sl.text}
+              </a>
+            ))}
+          </div>
+        )}
         {link && (
           <a href={link.href} className="read-more">
             {link.text}

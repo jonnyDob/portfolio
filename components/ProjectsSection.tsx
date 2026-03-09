@@ -19,7 +19,10 @@ export default function ProjectsSection() {
           { label: "Automations" },
           { label: "SQL", },
         ]}
-        link={{ href: "#", text: "View Project" }}
+        storeLinks={[
+          { href: "https://apps.apple.com/ca/app/common-local-and-live/id6743640498", text: "Common on iOS →" },
+          { href: "https://play.google.com/store/apps/details?id=com.elegora.common&pcampaignid=web_share", text: "Common on Android →" },
+        ]}
         phoneMockup={{
           large: {
             src: "/images/common/Common-map.png",
@@ -57,27 +60,6 @@ export default function ProjectsSection() {
 
       <ProjectFeatured
         number="3"
-        kicker="Web App"
-        title={
-          <>
-            Fleet: <em>Commute Benefits</em>
-          </>
-        }
-        body="A working demo for a commute benefits platform. Employees pick their commute mode and see real-time CO₂ savings and tax benefits. Team rewards unlock perks like Pizza Friday. Includes a separate HR admin view with payroll analytics and employee management."
-        tags={[
-          { label: "React", accent: true },
-          { label: "Python" },
-          { label: "Django" },
-          { label: "Full-Stack" },
-        ]}
-        link={{ href: "#", text: "View Project" }}
-        imageSrc="/images/fleet/HRReportsPage.png"
-        imageAlt="Fleet commute benefits platform"
-        browserUrl="fleet.app/hr/reports"
-      />
-
-      <ProjectFeatured
-        number="4"
         kicker="Artificial Intelligence · Research"
         title={
           <>

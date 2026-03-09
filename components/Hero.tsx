@@ -52,7 +52,7 @@ export default function Hero() {
         <motion.div className="hero-issue" variants={itemVariants}>
           <p>Software Engineer</p>
           <p>Portfolio — 2026</p>
-          <p>4 Projects</p>
+          <p>3 Projects</p>
         </motion.div>
       </div>
     </motion.section>
