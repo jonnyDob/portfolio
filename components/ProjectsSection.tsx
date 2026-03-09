@@ -5,7 +5,7 @@ export default function ProjectsSection() {
     <div className="projects" id="work">
       <ProjectFeatured
         number="1"
-        kicker="iOS · Android · Founder"
+        kicker="Cross-Platform"
         title={
           <>
             Common: <em>Local &amp; Live</em>
@@ -13,11 +13,11 @@ export default function ProjectsSection() {
         }
         body="A cross-platform event discovery app for iOS and Android. Users explore nearby events on a live map, follow local creators, and filter by day, price, and distance."
         tags={[
-          { label: "iOS", accent: true },
-          { label: "Android", accent: true },
+          { label: "Cross-Platform", accent: true },
           { label: "React Native" },
           { label: "Maps" },
-          { label: "Founder", accent: true },
+          { label: "Automations" },
+          { label: "SQL", },
         ]}
         link={{ href: "#", text: "View Project" }}
         phoneMockup={{
@@ -35,7 +35,7 @@ export default function ProjectsSection() {
 
       <ProjectFeatured
         number="2"
-        kicker="AWS · Enterprise SaaS"
+        kicker="AWS · Enterprise · SaaS"
         title={
           <>
             IESO Grid: <em>Energy Intelligence</em>
@@ -56,7 +56,7 @@ export default function ProjectsSection() {
 
       <ProjectFeatured
         number="3"
-        kicker="Demo · Web App"
+        kicker="Web App"
         title={
           <>
             Fleet: <em>Commute Benefits</em>

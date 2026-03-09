@@ -17,7 +17,7 @@ export default function Nav() {
           <Link href="#contact">Contact</Link>
         </li>
       </ul>
-      <div className="nav-right">jdobro.com</div>
+      <div className="nav-right">Toronto</div>
     </nav>
   );
 }
