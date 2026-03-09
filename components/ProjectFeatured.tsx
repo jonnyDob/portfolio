@@ -69,23 +69,18 @@ export default function ProjectFeatured({
       <div>
         {phoneMockup ? (
           <div className="phone-mockup-wrap">
-            <div className="phone-frame small">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={phoneMockup.small.src}
-                alt={phoneMockup.small.alt}
-              />
+            <div className="iphone">
+              <div className="iphone-screen">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={phoneMockup.small.src} alt={phoneMockup.small.alt} />
+              </div>
             </div>
-            <div className="phone-frame large">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={phoneMockup.large.src}
-                alt={phoneMockup.large.alt}
-              />
+            <div className="iphone">
+              <div className="iphone-screen">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={phoneMockup.large.src} alt={phoneMockup.large.alt} />
+              </div>
             </div>
-            {phoneMockup.caption && (
-              <div className="phone-mockup-caption">{phoneMockup.caption}</div>
-            )}
           </div>
         ) : stat ? (
           <div className="img-block">
