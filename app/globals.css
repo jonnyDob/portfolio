@@ -644,7 +644,6 @@ nav {
 .education {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--sand);
 }
 
 .edu-school {
@@ -701,6 +700,10 @@ footer p {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--taupe);
+}
+
+.footer-edu {
+  text-align: right;
 }
 
 /* RESPONSIVE */
