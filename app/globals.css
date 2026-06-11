@@ -21,18 +21,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Anchor targets land below the fixed nav */
-#work,
-#about,
-#contact {
-  scroll-margin-top: 80px;
-}
-
-/* Ensure the bottom section is tall enough to scroll into view at the top of the viewport */
-.bottom {
-  min-height: 100vh;
-}
-
 body {
   background: var(--cream);
   color: var(--ink);
