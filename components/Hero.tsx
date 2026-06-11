@@ -33,18 +33,14 @@ export default function Hero() {
           Engineering · Product · Scale
         </motion.div>
         <motion.h1 variants={itemVariants}>
-          Work that
-          <br />
-          makes <em>things</em>
-          <br />
-          possible.
+          I build and ship real products.
         </motion.h1>
         <motion.p className="hero-pull" variants={itemVariants}>
-          &ldquo;The best engineering is invisible — it just works.&rdquo;
+          Scaled an app&apos;s backend capacity 370× at zero added cost.
         </motion.p>
         <motion.p className="hero-body" variants={itemVariants}>
           Full-stack engineer and founder building across mobile, cloud
-          infrastructure, and artifical intelligence. I care about technology
+          infrastructure, and artificial intelligence. I care about technology
           that solves real problems.
         </motion.p>
       </div>

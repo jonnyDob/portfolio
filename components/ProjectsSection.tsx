@@ -11,7 +11,7 @@ export default function ProjectsSection() {
             Common: <em>Local &amp; Live</em>
           </>
         }
-        body="A cross-platform event discovery app for iOS and Android. Users explore nearby events on a live map, follow local creators, and filter by day, price, and distance."
+        body="A cross-platform event discovery app for iOS and Android. Users explore nearby events on a live map, follow local creators, and filter by day, price, and distance. Scaled backend capacity 370×, cut load times 15×, live on iOS and Android."
         tags={[
           { label: "Cross-Platform", accent: true },
           { label: "React Native" },
@@ -55,7 +55,7 @@ export default function ProjectsSection() {
         ]}
         imageSrc="/images/ieso/ieso_peak_data_chart.png"
         imageAlt="IESO energy threshold monitoring dashboard"
-        browserUrl="ieso-monitor.app/dashboard"
+        browserUrl="Internal dashboard — not publicly deployed"
       />
 
       <ProjectFeatured

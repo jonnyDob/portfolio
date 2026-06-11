@@ -20,7 +20,7 @@ export default function About() {
         I&apos;m a full-stack engineer and founder based in Toronto. I built
         Common — designing, engineering, and launching it on iOS and Android.
         I&apos;ve worked across web development, AWS cloud infrastructure,
-        artifical intelligence, and systems engineering at AMD.
+        artificial intelligence, and systems engineering at AMD.
       </p>
       <p>
         I care about building things well and solving problems that matter.

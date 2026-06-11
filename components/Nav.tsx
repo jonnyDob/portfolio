@@ -17,7 +17,10 @@ export default function Nav() {
           <Link href="#contact">Contact</Link>
         </li>
       </ul>
-      <div className="nav-right">Toronto</div>
+      <div className="nav-right">
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <span>Toronto</span>
+      </div>
     </nav>
   );
 }
